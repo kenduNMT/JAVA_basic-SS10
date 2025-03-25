@@ -5,7 +5,6 @@ class Student {
     private String id;
     private double gpa;
 
-    // Constructor
     public Student(String name, String id, double gpa) {
         if (name.isEmpty() || id.isEmpty() || gpa < 0 || gpa > 4.0) {
             throw new IllegalArgumentException("Thông tin không hợp lệ");
@@ -15,7 +14,6 @@ class Student {
         this.gpa = gpa;
     }
 
-    // Getter và Setter
     public String getName() {
         return name;
     }
