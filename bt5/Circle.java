@@ -3,12 +3,10 @@ package bt5;
 class Circle {
     private double radius;
 
-    // Constructor
     public Circle(double radius) {
         setRadius(radius);
     }
 
-    // Getter và Setter cho radius
     public double getRadius() {
         return radius;
     }
