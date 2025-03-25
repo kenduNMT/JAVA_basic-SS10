@@ -4,7 +4,6 @@ class GraduateStudent extends Student {
     private String researchTopic;
     private String supervisorName;
 
-    // Constructor
     public GraduateStudent(String name, String id, double gpa, String researchTopic, String supervisorName) {
         super(name, id, gpa);
         if (researchTopic.isEmpty() || supervisorName.isEmpty()) {
@@ -14,7 +13,6 @@ class GraduateStudent extends Student {
         this.supervisorName = supervisorName;
     }
 
-    // Getter và Setter
     public String getResearchTopic() {
         return researchTopic;
     }
