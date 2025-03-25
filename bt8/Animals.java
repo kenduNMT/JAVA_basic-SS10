@@ -4,7 +4,6 @@ class Animals {
     protected String name;
     protected int age;
 
-    // Constructor
     public Animals(String name, int age) {
         if (name.isEmpty() || age < 0) {
             throw new IllegalArgumentException("Thông tin không hợp lệ");
@@ -13,7 +12,6 @@ class Animals {
         this.age = age;
     }
 
-    // Getter và Setter
     public String getName() {
         return name;
     }
