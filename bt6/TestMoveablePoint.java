@@ -2,11 +2,9 @@ package bt6;
 
 class TestMoveablePoint {
     public static void main(String[] args) {
-        // Tạo đối tượng Point
         Point p1 = new Point(2, 3);
         System.out.println("Điểm ban đầu: " + p1);
 
-        // Tạo đối tượng MoveablePoint
         MoveablePoint mp1 = new MoveablePoint(2, 3, 1, 1);
         System.out.println("Điểm có thể di chuyển: " + mp1);
 
