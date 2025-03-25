@@ -3,13 +3,11 @@ package bt5;
 class Cylinder extends Circle {
     private double height;
 
-    // Constructor
     public Cylinder(double radius, double height) {
         super(radius);
         setHeight(height);
     }
 
-    // Getter và Setter cho height
     public double getHeight() {
         return height;
     }
